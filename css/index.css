@@ -1,0 +1,139 @@
+body {
+  background-color: #F8F9FA;
+}
+
+p {
+  /*margin-bottom: 0;*/
+}
+
+h2 {
+  text-align: left;
+}
+
+/* index.html vidie/audio section - on hover */
+.text {
+  position: absolute;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+/* index.html video/audio section - on hover */
+.text.bottom {
+  bottom: 100%;
+}
+
+/* index.html video/audio section - on hover */
+.service-block:hover .text.bottom {
+  bottom: 0;
+}
+
+/* banner image at top of page */
+#main-image {
+  margin-top: 20px;
+  height: 80vh;
+  width: 100%;
+}
+
+/* nav-bar alignment */
+.align-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* video/audio images */
+.service-block img {
+  margin: 10px;
+}
+
+/* The different page sections */
+.section {
+  padding: 50px 100px;
+  /*background-color: #fff;*/
+}
+
+.intro {
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  height: auto;
+  text-align: left;
+  padding: 50px;
+  line-height: 18px;
+  font-size: 18px;
+  position: absolute;
+  top: 30%;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.blue-text {
+  color: #19B8E8;
+}
+
+.yellow-text {
+  color: #FFC516;
+}
+
+ul {
+  list-style: none;
+  padding: 10px 30px;
+}
+
+.subtitle {
+  margin: 10px 0;
+}
+
+#message {
+  padding: 15px 100px;
+  background-color: #fff;
+  color: #FFC516;
+  border: 2px solid #FFC516;
+}
+
+#contact {
+  margin: 50px 100px;
+  color: #19B8E8;
+}
+
+#contact-info {
+  text-align: left;
+}
+
+
+#footer {
+  margin-bottom: 0;
+  background-color: #FFC516;
+  color: #fff;
+  clear: both;
+  text-align: center;
+  padding: 50px;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer ul li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.btn-warning {
+  background-color: #19B8E8;
+  border: none;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #1993CA;
+}
